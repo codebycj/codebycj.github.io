@@ -1,0 +1,33 @@
+.fieldSet {
+  padding: 0;
+  border: none;
+  font-size: small;
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  opacity: 0.75;
+}
+
+.validation, .error {
+  color: red;
+}
+
+.grey {
+  color: #666;
+}
+
+.formRow {
+  margin: 0 !important;
+  padding: 0.5em 0 !important;
+}
+
+.legend {
+  display: none;
+}
+
+.requiredField,
+.labelSeparator {
+  display: none;
+}
+
+select {
+  background: white;
+}
