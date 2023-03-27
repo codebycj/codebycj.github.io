@@ -11,8 +11,7 @@
   opacity: 1;
 }
 
-#paymentForm .fieldSet input {
-  display: block;
+#paymentForm .fieldSet .textBox {
   width: 100%;
   height: calc(1.7em + 1.2rem + 2px);
   padding: 0.375rem 0.75rem;
