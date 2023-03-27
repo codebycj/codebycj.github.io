@@ -8,15 +8,15 @@
   color: #212529;
   text-align: left;
   margin-bottom: 0.5rem;
-  opacity: 0.75;
+  opacity: 1;
 }
 
 .validation, .error {
   color: red;
 }
 
-.grey {
-  color: #000;
+#paymentForm .grey {
+    display: none;
 }
 
 .formRow {
