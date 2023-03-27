@@ -11,7 +11,9 @@
   opacity: 1;
 }
 
-#paymentForm .fieldSet .textBox {
+#paymentForm .fieldSet .textBox,
+#paymentForm .fieldSet select.dropDown.month, .fieldSet select.dropDown.year
+{
   width: 100%;
   height: calc(1.7em + 1.2rem + 2px);
   padding: 0.375rem 0.75rem;
@@ -48,8 +50,4 @@
 .requiredField,
 .labelSeparator {
   display: none;
-}
-
-select {
-  background: white;
 }
